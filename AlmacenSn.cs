@@ -23,6 +23,9 @@ namespace Users
             s.TUser = "gerente";
             s.Password = "pas123_1";
 
+            User.pass = new User();
+
+
             Department d = new Department();
             d.Departament = "gerencia\n";
 
@@ -30,6 +33,10 @@ namespace Users
             security.nivel = 2;
             security.grado = 0.56m;
             security.DateTime = DateTime.Now;
+
+
+
+            Console.WriteLine(security.ToString());
 
             Console.WriteLine(s.ShowData() + d.Name1() + security.Seguridad());
             Console.ReadLine();
