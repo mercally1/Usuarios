@@ -24,6 +24,7 @@ namespace Users
             s.Password = "pas123_1";
 
             User.pass = new User();
+            //hola soy un duketo 
 
 
             Department d = new Department();
